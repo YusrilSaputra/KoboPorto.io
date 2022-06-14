@@ -1,0 +1,111 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  font-family: arial,sans-serif;
+}
+
+.fcontainer {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: #222;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  background-color: rgb(26, 25, 25);
+  border-bottom: 1px solid #00f7ff;
+  box-shadow: 0 0 5px  #00f7ff;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  text-transform: capitalize;
+  font-size: 50px;
+  padding: 15px;
+}
+
+.firstname {
+  color: #fff;
+  font-weight: 700;
+}
+
+.lastname {
+  color: #00f7ff;
+  font-size: 38px;
+  font-weight: 500;
+  padding: 13px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigation li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.active {
+  padding: 10px;
+  color: black !important;
+  background-color: #00f7ff;
+  border-radius: 9px;
+}
+
+.navigation li a:hover {
+  color: #00f7ff;
+}
+
+.container {
+  width: 700px;
+  margin: 100px auto;
+  border: 1px solid #00f7ff;
+  box-shadow: 0 0 5px  #00f7ff;
+}
+
+.header h1 {
+  color: #fff;
+  font-weight: 555;
+  font-size: 50px;
+  text-align: center;
+}
+
+.header span {
+  color: #00f7ff;
+}
+
+.hero {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.hero img {
+  width: auto;
+  height: 290px;
+  float: left;
+}
+
+.hero p {
+  margin-right: 15px;
+  color: #00f7ff;
+}
+
+.clear {
+  clear: both;
+}
